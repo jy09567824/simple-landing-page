@@ -1,0 +1,22 @@
+.site-header {
+	padding: 32px;
+}
+
+.feature-text-heading {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.section-title {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.footer-padding {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.footer-text {
+	color: #ffffff;
+}
