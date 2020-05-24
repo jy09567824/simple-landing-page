@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh_tw">
+<head>
+
+	<meta charset="utf-8">
+	<!-- 宣告響應試網站架構，可以偵測到螢幕尺寸 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 頁面標題 -->
+	<title>太空旅人 - 外太空旅遊專家</title>
+	<meta name="description" content="想像科幻片遨遊宇宙嗎？太空旅人精選太陽系各大行星套裝行程，給您最舒適、安全的外太空旅遊體驗！">
+	<!-- 載入網站CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- 載入 Google icon CSS 樣式 -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!-- 載入 Boostrap CDN CSS 樣式 -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- 載入 Boostrap CDN JS 樣式 -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- HTML5 Header 欄位編輯區域 -->
+	<header class="site-header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a class="navbar-brand" href="#">
+					<img src="image/logo.png" width="64" style="margin-right: 10px;">太空旅人</a>
+
+					<!-- 手機版導覽列 -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!--桌面版導覽列-->
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<!--一般選單連結-->
+							<li class="nav-item">
+								<a class="nav-link" href="#">關於我們</a>
+							</li>
+							<!-- 下拉式選單 -->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">服務項目</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">月球探索</a>
+									<a class="dropdown-item" href="#">登陸火星</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">客製化方案</a>
+								</div>
+							</li>
+							<!--一般選單連結-->
+							<li class="nav-item">
+								<a class="nav-link" href="#">連絡我們</a>
+							</li>
+							<!--一般選單連結-->
+							<li class="nav-item">
+								<a class="nav-link disabled" href="#">敬請期待</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!-- HTML5 頁面主要內容 欄位編輯區域 -->
+		<main>
+
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<!-- 自訂 class feature-text-heading 排版用-->
+							<h1 class="feature-text-heading">外太空旅遊專家</h1>
+							<p>團遊世界怎麼能只玩地球？<br><br>太空旅人與美國太空總署NASA合作，提供舒適、安全的外太空旅程，從月球、火星到木星，帶你玩翻太陽系！</p>
+							<button type="button" class="btn btn-primary btn-lg">立即預約</button>
+						</div>
+						<div class="col-6">
+							<img src="image/moon.png">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 使用 hr 分隔線排版 -->
+			<hr>
+
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<img src="image/astronaut.png" width="360">
+						</div>
+						<div class="col-6">
+							<h2 class="feature-text-heading">飛向宇宙，浩瀚無垠</h2>
+							<p>想去外太空，你不用等到22世紀。我們幫助想要一圓外太空探索夢想的暴發戶們，搭上製自的火箭探索宇宙。（只去不回）</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-center section-title">服務項目</h2>
+						</div>
+					</div>
+					<!-- Boostrap Card 功能 -->
+					<div class="row">
+						<div class="card-deck">
+							<div class="col-4 card text-center">
+								<img class="card-image-top mx-auto" src="image/moon-icon.png" width="70%" >
+								<div class="card-body">
+									<h3 class="card-title">月球漫步</h3>
+									<p class="card-text">體重減輕的極限快感</p>
+									<a class="btn btn-primary" href="#">查看行程</a>	
+								</div>
+							</div>
+							<div class="col-4 card text-center">
+								<img class="card-image-top mx-auto" src="image/mars-icon.png" width="70%">
+								<div class="card-body">
+									<h3 class="card-title">火星登陸</h3>
+									<p class="card-text">一窺火星生命之謎</p>
+									<a class="btn btn-primary" href="#">查看行程</a>
+								</div>
+							</div>
+							<div class="col-4 card text-center">
+								<img class="card-image-top mx-auto" src="image/jupiter-icon.png" width="70%">
+								<div class="card-body">
+									<h3 class="card-title">木星探險</h3>
+									<p class="card-text">成為首位木星打卡網美</p>
+									<a class="btn btn-primary" href="#">查看行程</a>				
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<h2 class="text-center section-title">行前準備</h2>
+						</div>
+					</div>
+					<!-- justify-content-center 欄位置中屬性 -->
+					<div class="row text-center justify-content-center">
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>糧食</p>
+						</div>
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>水份</p>
+						</div>
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>氧氣</p>
+						</div>
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>手機</p>
+						</div>
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>行動電源</p>
+						</div>												
+					</div>
+					<div class="row text-center justify-content-center">
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>充電線</p>
+						</div>
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>盥洗用具</p>
+						</div>
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>衣物</p>
+						</div>
+						<div class="col-2">
+							<img src="image/black-hole.png" width="64px">
+							<p>乳清蛋白</p>						
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="container">
+					</div>
+				</section>				
+
+			</main>
+			<!-- HTML5 Footer 欄位編輯區域 -->
+			<footer>
+				<section style="background-color: #000000">
+					<div class="container footer-padding">
+						<div class="row text-center footer-text">
+							<div class="col-4">
+								<h4>連絡我們</h4><br>
+								<!-- 插入 Boostrap icon -->
+								<a href="#">
+									<i class="material-icons">android</i> <span>E-mail</span><br>
+								</a>
+								<a href="#">
+									<i class="material-icons">face</i> <span>Facebook</span><br>
+								</a>
+								<a href="">
+									<i class="material-icons">accessible</i> <span>Twitter</span>
+								</a>
+							</div>
+								<div class="col-4">
+									<h4>地址</h4>
+									<br>
+									<span>10491 台北市中山北路二段112號4樓之一</span>
+								</div>
+								<div class="col-4">
+									<img src="image/astronaut.png" width="80%">
+								</div>
+							</div>
+						</div>
+					</section>
+				</footer>
+			</body>
+			</html>
